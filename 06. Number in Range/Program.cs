@@ -7,7 +7,7 @@ namespace Conditional_Statements_Advanced
     {
         static void Main(string[] args)
         {
-           
+            Console.WriteLine();
         }
     }
 }
