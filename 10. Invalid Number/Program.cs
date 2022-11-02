@@ -8,13 +8,9 @@ namespace Conditional_Statements_Advanced
         {
             int num = int.Parse(Console.ReadLine());
 
-            if (num >= -100 && num != 0 && num <= 100)
+            if (num < 100 && num != 0 || num > 200 && num != 0)
             {
-                Console.WriteLine("Yes");
-            }
-            else
-            {
-                Console.WriteLine("No");
+                Console.WriteLine("invalid");
             }
         }
     }
